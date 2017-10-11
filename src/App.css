@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column; 
+  height: 100%; 
 }
 
 .App-logo {
@@ -16,11 +19,29 @@
 
 .App-title {
   font-size: 1.5em;
+  margin-top: 0px;
 }
 
-.App-intro {
-  font-size: large;
+.content {
+  padding: 15px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  align-items: center;
+  justify-items: center;
+  flex: 1;
 }
+
+@media (min-width: 350px) { 
+  .content {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
