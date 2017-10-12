@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import ButtonExampleButton from './component/button/btn';
+import FirstExample from './component/first_example/first_example';
+import SecondExample from './component/second_example/second_example';
 import './App.css';
 
 class App extends Component {
@@ -12,8 +14,8 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <main className="content">
-          <ButtonExampleButton></ButtonExampleButton>
-          <ButtonExampleButton></ButtonExampleButton>
+          <FirstExample></FirstExample>
+          <SecondExample></SecondExample>
           <ButtonExampleButton></ButtonExampleButton>
           <ButtonExampleButton></ButtonExampleButton>
         </main>

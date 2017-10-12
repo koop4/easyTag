@@ -1,0 +1,16 @@
+.olive {
+  background: #32CD32;
+}
+
+.whitey {
+  color: #fff;
+  opacity: none;
+}
+
+.striked {
+  text-decoration: line-through;
+}
+
+.striked:hover {
+  text-decoration: line-through;
+}
